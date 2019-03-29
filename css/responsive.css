@@ -15,8 +15,17 @@
 }
 
 @media screen and (max-width: 549px) {
+    .inside header {
+        position: initial;
+    }
     #breadcrumb {
         width: 100%;
+    }
+    .inside #map-container {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 0px;
     }
     .left-panel {
         width: 90%;
@@ -25,7 +34,10 @@
     #restaurants-list li {
         width: 80%;
       }
-      #restaurant-container, #reviews-container {
+    #restaurant-container, #reviews-container {
           width: 100%;
       }
+    .inside #footer {
+        width: 100%;
+    }
 }
