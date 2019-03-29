@@ -1,0 +1,31 @@
+@media screen and (min-width: 550px) {
+    body {
+        /*margin-left: auto;
+        margin-right: auto;*/
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 850px) {
+    #restaurants-list li {
+        width: 35%;
+      }
+    #restaurant-name {
+        font-size: 18pt;
+      }
+}
+
+@media screen and (max-width: 549px) {
+    #breadcrumb {
+        width: 100%;
+    }
+    .left-panel {
+        width: 90%;
+        margin: auto;
+    }
+    #restaurants-list li {
+        width: 80%;
+      }
+      #restaurant-container, #reviews-container {
+          width: 100%;
+      }
+}
