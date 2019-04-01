@@ -1,10 +1,12 @@
+/* Set auto widths on larger screen sizes */
 @media screen and (min-width: 550px) {
     body {
-        /*margin-left: auto;
-        margin-right: auto;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
+/* Make main restaurant cards scale gracefully */
 @media screen and (min-width: 550px) and (max-width: 850px) {
     #restaurants-list li {
         width: 35%;
@@ -14,6 +16,7 @@
       }
 }
 
+/* Make the restaurant detail page & home page scale gracefully on mobile screens */
 @media screen and (max-width: 549px) {
     .inside header {
         position: initial;
