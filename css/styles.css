@@ -16,7 +16,7 @@ body {
 	position: relative;
 }
 
-ul, li {
+ul, li, ol {
   font-family: 'Libre Franklin', sans-serif;
 	font-size: 10pt;
 	color: #333;
